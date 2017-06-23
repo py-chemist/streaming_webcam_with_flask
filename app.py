@@ -1,6 +1,7 @@
 from flask import Flask, render_template, Response
 import cv2
 
+# Modified version of https://github.com/miguelgrinberg/flask-video-streaming
 
 app = Flask(__name__)
 
